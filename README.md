@@ -3,13 +3,13 @@ Assignment for Backend developer for senior roles
 
 ## Role Based Access Control:
 
-Implement a role based auth system. System should be able to assign a role to user and remove a user from the role.
+Implement a role based auth system. System should be able to assign a role to a user and remove a role from a user.
 
 Entities are USER, ACTION TYPE, RESOURCE, ROLE
 
-ACTION TYPE defines the access level(Ex: READ, WRITE, DELETE)
+ACTION TYPE defines the access level (Ex: READ, WRITE, DELETE)
 
-Access to resources for users are controlled strictly by the role.One user can have multiple roles. Given a user, action type and resource system should be able to tell whether user has access or not.
+Access to resources for users are controlled strictly by the role. One user can have multiple roles. Given a user, action type and resource, the system should be able to tell whether user has access or not.
 
 
 Please list down the assumptions made. 
@@ -26,7 +26,7 @@ Please list down the assumptions made.
 
 5. Follow the best practices of engineering and design patterns.
 
-6. If you are using any existing rbac system as reference (like jenkins, google cloud IAM etc), you can mention that. 
+6. If you are using any existing RBAC system as reference (like jenkins, google cloud IAM etc), you can mention that. 
 
 
 ## sample command line interaction:
@@ -45,4 +45,4 @@ press 3 for access resource<br/><br/>
 
 ## submission steps
 
-Create README that talks about the files interviewer should look at. Considering you would be using a framework which the interviewer might not be aware of, it is worthwhile to point the files the interviewer should look in the README.
+Create a README that talks about the files the interviewer should look at. Considering you might be using a framework which the interviewer is not be aware of, it is worthwhile to highlight relevant files in the README.
