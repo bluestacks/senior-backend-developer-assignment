@@ -28,6 +28,12 @@ Please list down the assumptions made.
 
 6. If you are using any existing RBAC system as reference (like jenkins, google cloud IAM etc), you can mention that. 
 
+7. extra points for Unit tests(not necessary)
+
+
+## init system
+You can init system with few Resources, Roles(which have resources with different permission set), Admin User(admin) and Normal User(User1)
+
 
 ## sample command line interaction:
 hi! you are logged in as admin <br/>
